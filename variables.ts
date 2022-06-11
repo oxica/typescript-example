@@ -69,5 +69,20 @@ for (let i = 0; i < numbers.length; i++) {
     }
 }
 
+// 4) variable whose type is not obvious
+//let numbers2 = [-10, -1, 12];
+// let numberAboveZero2: number | boolean = false;
+
+// let foundNumber: boolean = false;
+// for (let i = 0; i < numbers2.length; i++) {
+//     if (numbers2[i] > 0) {
+//         numberAboveZero2 = numbers2[i];
+//         foundNumber = true;
+//     }
+// }
+
+
+
+
 
 
