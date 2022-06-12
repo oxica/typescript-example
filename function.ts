@@ -54,3 +54,5 @@ const logWeather = ({ date, weather }: { date: Date, weather: string }): void =>
     console.log(weather);
 }
 logWeather(todayWather);
+
+export{}
