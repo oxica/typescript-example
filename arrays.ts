@@ -17,14 +17,14 @@ const fruitsByColor1: string[][] = [
 
 //Help with inference when extracting values
 const myColor = colors2[0];
-const color1 = colors.pop();
+const color1 = colors2.pop();
 
 //Prevent incompatible values
 //colors.push(true);
 //colors.push("orange");
 
 //Help with 'map'
-colors.map((color:string):string => {
+colors2.map((color:string):string => {
     return color.toUpperCase();
 }   
 );
